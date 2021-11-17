@@ -1,0 +1,12 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+    <div class="text-center">
+        <h2>Trang chủ</h2>
+        <p>Xin chào {{ user.first_name }}!</p>
+        <p>Tên người dùng : {{ user }}</p>
+        <a class="btn btn-dark" href="{% url 'socialaccount_connections' %}">Cài đặt</a>
+
+
+    </div>
+{% endblock %}
