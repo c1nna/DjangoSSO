@@ -19,3 +19,4 @@ $ py manage.py migrate
 
 $ py manage.py runsslserver
 
+account superuser: admin; pass: admin
